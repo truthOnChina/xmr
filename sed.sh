@@ -79,7 +79,7 @@ sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'",/' $HOME/.c.three.cfg.json
 sed -i 's/"max-cpu-usage": *[^,]*,/"max-cpu-usage": 95,/' $HOME/.c.three.cfg.json
 sed -i 's#"log-file": *null,#"log-file": "'$HOME/c3pool/xmrig.log'",#' $HOME/.c.three.cfg.json
 sed -i 's/"syslog": *[^,]*,/"syslog": true,/' $HOME/.c.three.cfg.json
-sed -i 's/"background": *false,/"background": true,/' $HOME/.c.three.cfg.json
+sed -i 's/"background": *false,/"background": false,/' $HOME/.c.three.cfg.json
 # sed -i -e '$acpulimit -e xmrig -l 300 -b' /etc/rc.local     
 # sed -i -e '$i sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/.c.three.cfg.json     
 sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 95,/' $HOME/.c.three.cfg.json
