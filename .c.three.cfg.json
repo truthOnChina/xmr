@@ -67,9 +67,9 @@
         {
             "algo": null,
             "coin": null,
-            "url": "mine.c3pool.com:17777",
+            "url": "gulf.moneroocean.stream:10128",
             "user": "89QL3jnAwWgFkyi1ZDaKmMGv7KnKt1CDiaB7m1aJ3vS2Vpx98HBY87YBEhziQSDVK1jhtwvRcdBtr8CYMz7ES1xN7CYgYSH",
-            "pass": "cail-adl",
+            "pass": "hostname",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
