@@ -1,4 +1,3 @@
-HOME="cail"
 power2() {
   if ! type bc >/dev/null; then
     if   [ "$1" -gt "0" ]; then
