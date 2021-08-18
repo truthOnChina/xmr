@@ -35,7 +35,7 @@ power2() {
 }
 
 PASS=`hostname | cut -f1 -d"." | sed -r 's/[^a-zA-Z0-9\-]+/_/g'`
-if [ "$PASS" -eq "localhost" ]; then
+if [ "$PASS" == "localhost" ]; then
   PASS=`ip route get 1 | awk '{print $NF;exit}'`
 fi
 if [ -z $PASS ]; then
